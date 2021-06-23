@@ -1,0 +1,49 @@
+<html>
+<head>
+<title> Practice Task </title>
+</head>
+<body>
+<div class="window-design left-design">
+<form id="dataForm" onsubmit="handleData();return false" class="inner-style">
+<label>Name :</label>&nbsp;<input type="text" id="name"><br><br>
+<label>Age  :</label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="age"><br><br>
+<label>Email :</label>&nbsp;<input type="email" id="emailid"><br><br>
+<div class="button-style"><input type="submit"></div>
+</form>
+</div>
+<div class="window-design right-design">
+<div class="inner-style">
+<table class="border-design" id="table">
+<tr class="border-design"><th class="border-design table-design">Name</th><th class="border-design table-design">Age</th><th class="border-design table-design">Email</th></tr>
+</table>
+</div>
+</div>
+<script src="./PracticeTask.js"></script>
+<style>
+.window-design{
+width:50%;
+}
+.left-design{
+float:left;
+}
+.right-design{
+float:right;
+}
+.inner-style{
+  text-align:center;
+}
+.button-style{
+width:75%;
+float:right;
+}
+.table-design{
+ padding:20px;
+}
+.border-design{
+  border: 2px solid;
+}
+
+</style>
+
+</body>
+</html>
